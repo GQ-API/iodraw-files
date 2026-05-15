@@ -51,7 +51,12 @@
         </mxCell>
         <mxCell id="bVNdVTtFGcPJ3wmRP6EB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82B366;strokeWidth=2;" edge="1" parent="dns-layer" source="dns-admin">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="975" y="200" as="targetPoint" />
+            <mxPoint x="980" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="155" />
+              <mxPoint x="981" y="155" />
+              <mxPoint x="981" y="200" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dns-admin" value="admin.youxuan.aixiaobin.com&#xa;CNAME → CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="dns-layer" vertex="1">
