@@ -37,6 +37,10 @@
         <mxCell id="bVNdVTtFGcPJ3wmRP6EB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dns-layer" source="dns-im">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="80" />
+              <mxPoint x="310" y="200" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dns-im" value="im.youxuan.aixiaobin.com&lt;br&gt;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
