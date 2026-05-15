@@ -273,8 +273,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow-dns-cdn" value="③ 返回 CDN CNAME" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366" parent="1" source="dns-store" target="cdn-layer" edge="1">
+        <mxCell id="arrow-dns-cdn" value="③ 返回 CDN CNAME" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366" parent="1" source="dns-store" edge="1">
           <mxGeometry x="0.5455" y="20" relative="1" as="geometry">
+            <mxPoint x="1020" y="440" as="targetPoint" />
             <Array as="points">
               <mxPoint x="770" y="370" />
               <mxPoint x="900" y="370" />
