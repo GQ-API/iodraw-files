@@ -216,7 +216,7 @@
         <mxCell id="bVNdVTtFGcPJ3wmRP6EB-1" value="......&lt;br&gt;CNAME → CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1400" y="290" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bVNdVTtFGcPJ3wmRP6EB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVNdVTtFGcPJ3wmRP6EB-2">
+        <mxCell id="bVNdVTtFGcPJ3wmRP6EB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D80073;" edge="1" parent="1" source="bVNdVTtFGcPJ3wmRP6EB-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="240" as="targetPoint" />
           </mxGeometry>
