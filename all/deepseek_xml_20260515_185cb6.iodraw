@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="网络架构图" id="network-architecture">
-    <mxGraphModel dx="610" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="arrow-dns-cdn" value="③ 返回 CDN CNAME" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366" parent="1" source="dns-store" target="cdn-layer" edge="1">
-          <mxGeometry x="-0.7059" y="-40" relative="1" as="geometry">
+          <mxGeometry x="-0.6471" y="-30" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="770" y="450" />
               <mxPoint x="800" y="450" />
@@ -71,7 +71,7 @@
           <mxGeometry x="40" y="139" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cdn-layer" value="4. CDN 内容分发层 (静态资源加速)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
-          <mxGeometry x="40" y="660" width="1520" height="160" as="geometry" />
+          <mxGeometry x="450" y="450" width="1520" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cdn-node1" value="CDN 边缘节点&#xa;(缓存: js/css/图片)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="cdn-layer" vertex="1">
           <mxGeometry x="60" y="50" width="200" height="80" as="geometry" />
