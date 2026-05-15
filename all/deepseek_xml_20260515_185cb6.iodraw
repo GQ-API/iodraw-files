@@ -71,7 +71,7 @@
           <mxGeometry x="40" y="139" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cdn-layer" value="4. CDN 内容分发层 (静态资源加速)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
-          <mxGeometry x="440" y="440" width="780" height="180" as="geometry" />
+          <mxGeometry x="710" y="440" width="780" height="180" as="geometry" />
         </mxCell>
         <mxCell id="cdn-node1" value="CDN 边缘节点&#xa;(缓存: js/css/图片)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="cdn-layer" vertex="1">
           <mxGeometry x="60" y="40" width="200" height="80" as="geometry" />
