@@ -14,10 +14,10 @@
           <mxGeometry x="60" y="40" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="user-phone" value="微信服务号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="user-layer" vertex="1">
-          <mxGeometry x="290" y="40" width="180" height="60" as="geometry" />
+          <mxGeometry x="1010" y="40" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="user-desktop" value="微信小程序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="user-layer" vertex="1">
-          <mxGeometry x="670" y="40" width="180" height="60" as="geometry" />
+          <mxGeometry x="460" y="40" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="arrow-user-dns" value="① 域名请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d80073" parent="1" source="user-browser" target="dns-layer" edge="1">
           <mxGeometry relative="1" as="geometry" />
