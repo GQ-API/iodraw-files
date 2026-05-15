@@ -75,11 +75,12 @@
           <mxGeometry x="1110" y="50" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="arrow-dns-esa" value="② 返回 ESA CNAME" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450" parent="1" source="dns-chat" target="esa-layer" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.4" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="210" y="380" />
               <mxPoint x="320" y="380" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="esa-layer" value="3. ESA 边缘安全加速层 (支持 WebSocket 长连接)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
