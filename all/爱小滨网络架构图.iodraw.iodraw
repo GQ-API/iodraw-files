@@ -121,9 +121,7 @@
         <mxCell id="arrow-cdn-router" value="⑤ CDN 回源 (HTTP/HTTPS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="cdn-features" target="router-layer" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1090" y="570" />
-              <mxPoint x="1010" y="570" />
-              <mxPoint x="1010" y="700" />
+              <mxPoint x="1090" y="700" />
               <mxPoint x="800" y="700" />
             </Array>
           </mxGeometry>
