@@ -25,10 +25,10 @@
         <mxCell id="dns-layer" value="2. DNS 解析层 (阿里云 DNS)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
           <mxGeometry x="40" y="240" width="1520" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dns-chat" value="test.chat.aixiaobing.com&#xa;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
+        <mxCell id="dns-chat" value="chat.aixiaobing.com&lt;br&gt;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
           <mxGeometry x="60" y="50" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dns-im" value="test.im.aixiaobin.com&#xa;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
+        <mxCell id="dns-im" value="im.aixiaobin.com&lt;br&gt;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
           <mxGeometry x="320" y="50" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dns-store" value="store.youxuan.aixiaobin.com&#xa;CNAME → CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="dns-layer" vertex="1">
