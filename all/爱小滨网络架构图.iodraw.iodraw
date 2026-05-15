@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="网络架构图" id="network-architecture">
-    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="dns-store" value="store.youxuan.aixiaobin.com&#xa;CNAME → CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="dns-layer" vertex="1">
           <mxGeometry x="620" y="50" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bVNdVTtFGcPJ3wmRP6EB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dns-layer" source="dns-admin">
+        <mxCell id="bVNdVTtFGcPJ3wmRP6EB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82B366;" edge="1" parent="dns-layer" source="dns-admin">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="975" y="200" as="targetPoint" />
           </mxGeometry>
@@ -232,6 +232,11 @@
         <mxCell id="legend-backend" value="后端微服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf" parent="legend" vertex="1">
           <mxGeometry x="1010" y="40" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bVNdVTtFGcPJ3wmRP6EB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVNdVTtFGcPJ3wmRP6EB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1465" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bVNdVTtFGcPJ3wmRP6EB-1" value="......&lt;br&gt;CNAME → CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1400" y="290" width="130" height="60" as="geometry" />
         </mxCell>
@@ -269,12 +274,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="arrow-dns-cdn" value="③ 返回 CDN CNAME" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366" parent="1" source="dns-store" target="cdn-layer" edge="1">
-          <mxGeometry x="0.5455" y="10" relative="1" as="geometry">
+          <mxGeometry x="0.5455" y="20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="770" y="370" />
               <mxPoint x="900" y="370" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
