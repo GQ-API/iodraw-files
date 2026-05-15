@@ -130,10 +130,10 @@
         <mxCell id="nginx-router" value="根据 Host 头匹配 server_name" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontStyle=2" parent="nginx-layer" vertex="1">
           <mxGeometry x="320" y="55" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nginx-chat" value="test.chat.xxx.com&#xa;→ imWsApiServer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" parent="nginx-layer" vertex="1">
+        <mxCell id="nginx-chat" value="chat.xxx.com&lt;br&gt;→ imWsApiServer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" parent="nginx-layer" vertex="1">
           <mxGeometry x="580" y="45" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nginx-im" value="test.im.xxx.com&#xa;→ imWsApiServer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" parent="nginx-layer" vertex="1">
+        <mxCell id="nginx-im" value="im.xxx.com&lt;br&gt;→ imWsApiServer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" parent="nginx-layer" vertex="1">
           <mxGeometry x="780" y="45" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nginx-store" value="store.xxx.com&#xa;→ seller/dist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366" parent="nginx-layer" vertex="1">
