@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="网络架构图" id="network-architecture">
-    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
         <mxCell id="legend-backend" value="后端微服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf" parent="legend" vertex="1">
           <mxGeometry x="1010" y="40" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bVNdVTtFGcPJ3wmRP6EB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82B366;" edge="1" parent="1" source="bVNdVTtFGcPJ3wmRP6EB-1">
+        <mxCell id="bVNdVTtFGcPJ3wmRP6EB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82B366;strokeWidth=2;" edge="1" parent="1" source="bVNdVTtFGcPJ3wmRP6EB-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1465" y="440" as="targetPoint" />
           </mxGeometry>
