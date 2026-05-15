@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="网络架构图" id="network-architecture">
-    <mxGraphModel dx="416" dy="216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,10 +109,10 @@
         <mxCell id="router-port1" value="端口转发规则:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" parent="router-layer" vertex="1">
           <mxGeometry x="60" y="45" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="router-port80" value="外网:80 → 192.168.1.114:80 (HTTP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656" parent="router-layer" vertex="1">
+        <mxCell id="router-port80" value="外网:56781 → 192.168.1.114:80 (HTTP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656" parent="router-layer" vertex="1">
           <mxGeometry x="200" y="40" width="280" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="router-port443" value="外网:443 → 192.168.1.114:443 (HTTPS/WSS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656" parent="router-layer" vertex="1">
+        <mxCell id="router-port443" value="外网:56783 → 192.168.1.114:443 (HTTPS/WSS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656" parent="router-layer" vertex="1">
           <mxGeometry x="520" y="40" width="300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="router-port22" value="外网:22 → 192.168.1.114:22 (SSH)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656" parent="router-layer" vertex="1">
