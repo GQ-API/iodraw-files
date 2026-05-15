@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="网络架构图" id="network-architecture">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="598" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="0.2537" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="190" y="210" />
-              <mxPoint x="670" y="210" />
+              <mxPoint x="800" y="210" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -31,10 +31,10 @@
         <mxCell id="dns-layer" value="2. DNS 解析层 (阿里云 DNS)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
           <mxGeometry x="40" y="240" width="1520" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dns-chat" value="chat.aixiaobing.com&lt;br&gt;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
+        <mxCell id="dns-chat" value="chat.youxuan.aixiaobing.com&lt;br&gt;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
           <mxGeometry x="60" y="50" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dns-im" value="im.aixiaobin.com&lt;br&gt;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
+        <mxCell id="dns-im" value="im.youxuan.aixiaobin.com&lt;br&gt;CNAME → ESA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="dns-layer" vertex="1">
           <mxGeometry x="320" y="50" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dns-store" value="store.youxuan.aixiaobin.com&#xa;CNAME → CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="dns-layer" vertex="1">
@@ -224,11 +224,11 @@
         </mxCell>
         <mxCell id="bVNdVTtFGcPJ3wmRP6EB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D80073;strokeWidth=2;" edge="1" parent="1" source="bVNdVTtFGcPJ3wmRP6EB-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="240" as="targetPoint" />
+            <mxPoint x="800" y="240" as="targetPoint" />
             <Array as="points">
               <mxPoint x="758" y="210" />
-              <mxPoint x="670" y="210" />
-              <mxPoint x="670" y="240" />
+              <mxPoint x="800" y="210" />
+              <mxPoint x="800" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -239,8 +239,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1080" y="210" />
-              <mxPoint x="670" y="210" />
-              <mxPoint x="670" y="240" />
+              <mxPoint x="800" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -250,9 +249,9 @@
         <mxCell id="bVNdVTtFGcPJ3wmRP6EB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#D80073;strokeWidth=2;" edge="1" parent="1" source="user-desktop" target="dns-layer">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="210" />
-              <mxPoint x="670" y="210" />
-              <mxPoint x="670" y="240" />
+              <mxPoint x="620" y="150" />
+              <mxPoint x="620" y="210" />
+              <mxPoint x="800" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
