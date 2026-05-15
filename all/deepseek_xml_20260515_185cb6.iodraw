@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="网络架构图" id="network-architecture">
-    <mxGraphModel dx="2607" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="router-layer" value="5. 路由器 (公网 IP + 端口转发)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
-          <mxGeometry x="40" y="860" width="1520" height="140" as="geometry" />
+          <mxGeometry x="40" y="770" width="1520" height="140" as="geometry" />
         </mxCell>
         <mxCell id="router-port1" value="端口转发规则:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" parent="router-layer" vertex="1">
           <mxGeometry x="60" y="45" width="120" height="30" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nginx-layer" value="6. Nginx 反向代理层 (域名路由)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
-          <mxGeometry x="40" y="1040" width="1520" height="180" as="geometry" />
+          <mxGeometry x="40" y="950" width="1520" height="180" as="geometry" />
         </mxCell>
         <mxCell id="nginx" value="Nginx 容器&#xa;(监听: 80, 443, 10001-10010)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="nginx-layer" vertex="1">
           <mxGeometry x="60" y="45" width="220" height="80" as="geometry" />
@@ -146,7 +146,7 @@
           <mxGeometry x="580" y="110" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="backend-layer" value="7. 后端微服务层 (Docker 容器)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;startSize=30" parent="1" vertex="1">
-          <mxGeometry x="40" y="1260" width="1520" height="160" as="geometry" />
+          <mxGeometry x="40" y="1170" width="1520" height="160" as="geometry" />
         </mxCell>
         <mxCell id="backend-gateway" value="Gateway&#xa;网关" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf" parent="backend-layer" vertex="1">
           <mxGeometry x="60" y="50" width="130" height="60" as="geometry" />
@@ -179,7 +179,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="legend" value="图例" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;startSize=25" parent="1" vertex="1">
-          <mxGeometry x="40" y="1470" width="1520" height="100" as="geometry" />
+          <mxGeometry x="40" y="1380" width="1520" height="100" as="geometry" />
         </mxCell>
         <mxCell id="legend-websocket" value="WebSocket 流量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" parent="legend" vertex="1">
           <mxGeometry x="60" y="40" width="150" height="30" as="geometry" />
