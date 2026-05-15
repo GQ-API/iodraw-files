@@ -174,7 +174,7 @@
         <mxCell id="backend-im" value="IM API&#xa;IM 服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#b85450" parent="backend-layer" vertex="1">
           <mxGeometry x="570" y="50" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="backend-ws" value="IM WebSocket&#xa;长连接服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="backend-layer" vertex="1">
+        <mxCell id="backend-ws" value="IM WebSocket&#xa;长连接服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#b85450;fontStyle=1" parent="backend-layer" vertex="1">
           <mxGeometry x="740" y="50" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="backend-mysql" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf" parent="backend-layer" vertex="1">
