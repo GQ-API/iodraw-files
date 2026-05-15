@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="网络架构图" id="network-architecture">
-    <mxGraphModel dx="700" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="404" dy="210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
         </mxCell>
         <mxCell id="bVNdVTtFGcPJ3wmRP6EB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;strokeColor=#B85450;" edge="1" parent="esa-layer" source="esa-node2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280.0000000000001" y="110" as="targetPoint" />
+            <mxPoint x="280" y="130" as="targetPoint" />
             <Array as="points">
               <mxPoint x="280" y="45" />
             </Array>
@@ -101,8 +101,7 @@
         <mxCell id="arrow-esa-router" value="④ ESA 回源 (WebSocket + HTTP)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="esa-node3" target="router-layer" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="560" />
-              <mxPoint x="320" y="560" />
+              <mxPoint x="320" y="545" />
               <mxPoint x="320" y="700" />
               <mxPoint x="800" y="700" />
             </Array>
